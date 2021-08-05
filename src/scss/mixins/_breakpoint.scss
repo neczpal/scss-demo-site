@@ -1,0 +1,7 @@
+@use "../functions/functions" as *;
+
+@mixin desktop-up {
+  @media only screen and (min-width: var(grid-breakpoint-desktop)){
+    @content;
+  }
+}

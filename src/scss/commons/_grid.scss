@@ -1,0 +1,5 @@
+@use "../mixins/grid" as *;
+
+@include generate-container();
+@include column-default-style();
+@include generate-columns();

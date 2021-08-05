@@ -153,19 +153,24 @@
 }
 
 .nav {
-  background-color: #EFEFEF;
-  box-shadow: 0 0 18px #aab;
+  position: sticky;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
+  z-index: 5000;
 }
 .nav__site-name {
   display: block;
-  font-size: 1rem;
-  line-height: 1rem;
+  font-size: 22px;
+  line-height: 1.25;
+  font-weight: 200;
   align-self: center;
+  color: #fdcc52;
 }
 .nav__site-name:hover {
-  color: #FFF;
+  color: #efefef;
+  cursor: pointer;
 }
 .nav__container {
   display: flex;
@@ -189,7 +194,6 @@
     display: flex;
     align-items: flex-end;
     flex-direction: row;
-    width: auto;
   }
 }
 .nav__item {
@@ -197,17 +201,16 @@
 }
 .nav__link {
   text-align: center;
-  color: #222;
+  color: #efefef;
   display: block;
-  font-size: 1rem;
-  line-height: 1rem;
-  padding: 1rem;
+  font-size: 13px;
+  line-height: 1.1;
+  padding: 10px;
   text-decoration: none;
   text-transform: uppercase;
 }
 .nav__link:hover {
-  color: #EEE;
-  background-color: #262626;
+  color: #767676;
 }
 .nav__hamburger-checkbox {
   display: none;
@@ -226,6 +229,7 @@
 }
 .nav__hamburger-label {
   display: flex;
+  color: #efefef;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
@@ -250,10 +254,37 @@
   }
 }
 .nav__hamburger-line {
-  background: #222;
+  background: #efefef;
   display: block;
   height: 2px;
   width: 1.5rem;
+}
+
+.new-age {
+  background: url("../img/bg-pattern.png") repeat, linear-gradient(to right, #dc2430, #7c4396);
+  padding-bottom: 72px;
+}
+.new-age__text {
+  font-size: 33px;
+  font-weight: 100;
+  line-height: 1.5;
+  color: #efefef;
+  padding: 20% 20% 10%;
+}
+.new-age__phone {
+  background: url("../img/phone.png") no-repeat;
+  background-size: contain;
+  display: block;
+  width: 4.41in;
+  margin: auto;
+}
+.new-age__image {
+  margin: 1in 0.24in 1in;
+  display: block;
+  width: 3.95in;
+}
+.new-age__button {
+  padding: 0 20%;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -23,6 +23,7 @@
     margin: 0 auto;
     padding: var(container-padding-default);
     position: relative;
+    width: 100%;
     max-width: var(container-maxWidth);
 
     @include desktop-up {

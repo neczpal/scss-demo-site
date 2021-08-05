@@ -1,0 +1,114 @@
+@use "../variables/navigation" as *;
+
+.nav {
+  background-color: $nav-background-color;
+  box-shadow: 0 0 18px $nav-shadow-color;
+  display: flex;
+  justify-content: center;
+
+  &__site-name {
+    display: block;
+
+    &:hover{
+      color: $nav-hover-color;
+    }
+  }
+
+  &__container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    width: 100%;
+
+    @media screen and (min-width: 40em) {
+      align-items: center;
+    }
+  }
+
+  &__list {
+    display: none;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+
+    @media screen and (min-width: 40em) {
+      display: flex;
+      align-items: flex-end;
+      flex-direction: row;
+      width: auto;
+    }
+  }
+
+  &__item {
+    text-align: center;
+  }
+
+  &__link {
+    text-align: center;
+    color: $link-color;
+    display: block;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $link-hover-color;
+      background-color: $link-hover-background-color;
+    }
+  }
+
+  &__hamburger {
+    &-checkbox {
+      display: none;
+
+      &:checked + .nav__list {
+        display: flex;
+      }
+    }
+
+    &-menu-text {
+      display: flex;
+      align-items: center;
+
+      @media screen and (min-width: 40rem) {
+        display: none;
+      }
+    }
+
+    &-label {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      cursor: pointer;
+
+      @media screen and (min-width: 40rem) {
+        display: none;
+      }
+    }
+
+    &-icon {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      height: 1.5rem;
+      width: 1.5rem;
+      padding: 0.75rem;
+
+      @media screen and (min-width: 40rem) {
+        display: none;
+      }
+    }
+
+    &-line {
+      background: $link-color;
+      display: block;
+      height: 2px;
+      width: 1.5rem;
+    }
+  }
+}

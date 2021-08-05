@@ -263,6 +263,7 @@
 .new-age {
   background: url("../img/bg-pattern.png") repeat, linear-gradient(to right, #dc2430, #7c4396);
   padding-bottom: 72px;
+  padding-top: 72px;
 }
 .new-age__text {
   font-size: 33px;
@@ -285,6 +286,32 @@
 }
 .new-age__button {
   padding: 0 20%;
+}
+
+.discover {
+  background-color: #fdcc52;
+  padding-bottom: 108px;
+  padding-top: 108px;
+}
+.discover__headline {
+  font-size: 33px;
+  font-weight: 100;
+  line-height: 1.5;
+  text-align: center;
+}
+.discover__kicker {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.discover__badges {
+  display: flex;
+  justify-content: center;
+}
+.discover__badge {
+  width: 135px;
+  margin: 2px;
 }
 
 /*# sourceMappingURL=main.css.map */

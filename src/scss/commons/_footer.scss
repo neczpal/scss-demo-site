@@ -1,0 +1,26 @@
+@use "../variables/navigation" as *;
+
+.footer {
+  background-color: #101010;
+  padding-bottom: 6px;
+  padding-top: 6px;
+
+  &__headline {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.15;
+    text-align: center;
+    color: #767676;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__item {
+    font-size: 16px;
+    margin: 5px;
+    color: #767676;
+  }
+}

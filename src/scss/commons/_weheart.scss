@@ -1,0 +1,32 @@
+@use "../variables/navigation" as *;
+
+.weheart {
+  background-color: #fdcc52;
+  padding-bottom: 32px;
+  padding-top: 32px;
+
+  &__headline {
+    font-size: 33px;
+    font-weight: 100;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  &__kicker {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 1.5;
+  }
+
+  &__badges {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__badge {
+    font-size: 64px;
+    margin: 5px;
+    color: #767676;
+  }
+}

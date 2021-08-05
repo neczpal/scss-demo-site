@@ -23,6 +23,11 @@
   &__badge {
     font-size: 64px;
     margin: 5px;
-    color: #767676;
+    color: black;
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 }

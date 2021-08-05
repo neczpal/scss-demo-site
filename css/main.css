@@ -6,6 +6,10 @@
   font-family: Mulish, Helvetica, Arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   box-sizing: border-box;
   display: flex;
@@ -462,7 +466,11 @@ html:not([data-scroll="0"]) .nav {
 .weheart__badge {
   font-size: 64px;
   margin: 5px;
-  color: #767676;
+  color: black;
+  opacity: 0.5;
+}
+.weheart__badge:hover {
+  opacity: 1;
 }
 
 .footer {

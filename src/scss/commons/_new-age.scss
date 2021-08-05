@@ -1,0 +1,31 @@
+@use "../variables/navigation" as *;
+
+.new-age {
+  background: url("../img/bg-pattern.png") repeat, linear-gradient(to right, #dc2430, #7c4396);
+  padding-bottom: 72px;
+
+  &__text {
+    font-size: 33px;
+    font-weight: 100;
+    line-height: 1.5;
+    color: $nav-labels-color;
+    padding: 20% 20% 10%;
+  }
+
+  &__phone {
+    background: url("../img/phone.png") no-repeat;
+    background-size: contain;
+    display: block;
+    width: 4.41in;
+    margin: auto;
+  }
+
+  &__image {
+    margin: 1in 0.24in 1in;
+    display: block;
+    width: 3.95in;
+  }
+  &__button {
+    padding: 0 20%;
+  }
+}

@@ -8,6 +8,9 @@
 
     <title>Demo site</title>
 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
           integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
           crossorigin="anonymous"/>
@@ -203,7 +206,7 @@
     <div class="container">
         <div class="col--12">
             <h3 class="footer__headline">
-               @Abel Neczpal 2021. All Rights Reserved.
+                @Abel Neczpal 2021. All Rights Reserved.
             </h3>
         </div>
         <div class="footer__items col--12">
@@ -247,7 +250,7 @@
     }
 
     // Listen for new scroll events, here we debounce our `storeScroll` function
-    document.addEventListener('scroll', debounce(storeScroll), { passive: true });
+    document.addEventListener('scroll', debounce(storeScroll), {passive: true});
 
     // Update scroll position for first time
     storeScroll();

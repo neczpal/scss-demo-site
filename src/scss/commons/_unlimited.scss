@@ -1,5 +1,8 @@
 @use "../variables/navigation" as *;
 @use "../mixins/mixins" as *;
+@use "../functions/functions" as *;
+@use "../variables/fonts" as *;
+
 
 .unlimited {
   background-color: white;
@@ -13,6 +16,7 @@
   &__headline {
     font-size: 31px;
     font-weight: 100;
+    font-family: #{var(headline, $fonts)};
     line-height: 1.5;
     text-align: center;
   }
@@ -22,6 +26,7 @@
     color: #767676;
     font-size: 17px;
     font-weight: 200;
+    font-family: #{var(headline, $fonts)};
     line-height: 1.5;
     text-align: center;
   }
@@ -51,7 +56,7 @@
     background-size: contain;
     display: block;
     width: 4.41in;
-    margin: auto;
+    margin: auto auto 64px;
   }
 
   &__phone-screen {

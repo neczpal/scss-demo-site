@@ -1,3 +1,6 @@
+@use "../functions/functions" as *;
+@use "../variables/fonts" as *;
+
 .new-age {
   background: url("../img/bg-pattern.png") repeat, linear-gradient(to right, #dc2430, #7c4396);
   padding-bottom: 72px;
@@ -6,6 +9,7 @@
   &__text {
     font-size: 33px;
     font-weight: 100;
+    font-family: #{var(headline, $fonts)};
     line-height: 1.5;
     color: white;
     padding: 20% 20% 10%;
@@ -24,6 +28,6 @@
     width: 3.95in;
   }
   &__button {
-    padding: 0 20%;
+    padding: 0 20% 15%;
   }
 }

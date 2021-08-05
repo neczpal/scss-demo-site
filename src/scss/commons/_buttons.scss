@@ -1,9 +1,13 @@
+@use "../functions/functions" as *;
+@use "../variables/fonts" as *;
+
+
 .btn {
   background-color: #ffffff00;
   border: white 1.5px solid;
   border-radius: 2.25rem;
   color: white;
-  font: 15px Arial, Helvetica, sans-serif;
+  font-family: #{var(links, $fonts)};
   padding: 0.5rem 1rem;
   user-select: none;
   transition: text-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -12,7 +16,6 @@
 
   &:hover {
     cursor: pointer;
-    text-shadow: 0 0 1px #fff;
     background-color: #fdcc52;
     border-color: #fdcc52;
   }

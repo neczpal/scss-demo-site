@@ -1,9 +1,9 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   text-decoration: none;
   color: black;
+  font-family: Mulish, Helvetica, Arial, sans-serif;
 }
 
 .container {
@@ -159,7 +159,7 @@
   border: white 1.5px solid;
   border-radius: 2.25rem;
   color: white;
-  font: 15px Arial, Helvetica, sans-serif;
+  font-family: Lato, Helvetica, Arial, sans-serif;
   padding: 0.5rem 1rem;
   user-select: none;
   transition: text-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -168,7 +168,6 @@
 }
 .btn:hover {
   cursor: pointer;
-  text-shadow: 0 0 1px #fff;
   background-color: #fdcc52;
   border-color: #fdcc52;
 }
@@ -297,6 +296,7 @@ html:not([data-scroll="0"]) .nav {
 .new-age__text {
   font-size: 33px;
   font-weight: 100;
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   color: white;
   padding: 20% 20% 10%;
@@ -313,7 +313,7 @@ html:not([data-scroll="0"]) .nav {
   width: 3.95in;
 }
 .new-age__button {
-  padding: 0 20%;
+  padding: 0 20% 15%;
 }
 
 .discover {
@@ -324,6 +324,7 @@ html:not([data-scroll="0"]) .nav {
 .discover__headline {
   font-size: 33px;
   font-weight: 100;
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   text-align: center;
 }
@@ -331,6 +332,7 @@ html:not([data-scroll="0"]) .nav {
   text-align: center;
   font-size: 17px;
   font-weight: 200;
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
   line-height: 1.5;
 }
 .discover__badges {
@@ -352,6 +354,7 @@ html:not([data-scroll="0"]) .nav {
 .unlimited__headline {
   font-size: 31px;
   font-weight: 100;
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   text-align: center;
 }
@@ -360,6 +363,7 @@ html:not([data-scroll="0"]) .nav {
   color: #767676;
   font-size: 17px;
   font-weight: 200;
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   text-align: center;
 }
@@ -387,7 +391,7 @@ html:not([data-scroll="0"]) .nav {
   background-size: contain;
   display: block;
   width: 4.41in;
-  margin: auto;
+  margin: auto auto 64px;
 }
 .unlimited__phone-screen {
   margin: 1in 0.24in 1in;
@@ -428,6 +432,7 @@ html:not([data-scroll="0"]) .nav {
 .stop-wait__text {
   font-size: 56px;
   font-weight: 100;
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   color: white;
   padding-left: 30%;
@@ -445,14 +450,9 @@ html:not([data-scroll="0"]) .nav {
 .weheart__headline {
   font-size: 33px;
   font-weight: 100;
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   text-align: center;
-}
-.weheart__kicker {
-  text-align: center;
-  font-size: 17px;
-  font-weight: 200;
-  line-height: 1.5;
 }
 .weheart__badges {
   display: flex;
@@ -484,6 +484,9 @@ html:not([data-scroll="0"]) .nav {
   font-size: 16px;
   margin: 5px;
   color: #767676;
+}
+.footer__item:hover {
+  color: #fdcc52;
 }
 
 /*# sourceMappingURL=main.css.map */

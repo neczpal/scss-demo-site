@@ -1,0 +1,21 @@
+@use "../variables/navigation" as *;
+
+.stop-wait {
+  background: url("../img/bg-cta.jpg") no-repeat;
+  background-size: cover;
+  padding-bottom: 108px;
+  padding-top: 108px;
+
+  &__text {
+    font-size: 56px;
+    font-weight: 100;
+    line-height: 1.5;
+    color: white;
+    padding-left: 30%;
+  }
+
+  &__button {
+    padding-left: 30%;
+    padding-top: 5%;
+  }
+}

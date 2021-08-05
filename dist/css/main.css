@@ -390,4 +390,22 @@
   margin: 6px;
 }
 
+.stop-wait {
+  background: url("../img/bg-cta.jpg") no-repeat;
+  background-size: cover;
+  padding-bottom: 108px;
+  padding-top: 108px;
+}
+.stop-wait__text {
+  font-size: 56px;
+  font-weight: 100;
+  line-height: 1.5;
+  color: white;
+  padding-left: 30%;
+}
+.stop-wait__button {
+  padding-left: 30%;
+  padding-top: 5%;
+}
+
 /*# sourceMappingURL=main.css.map */

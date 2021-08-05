@@ -1,5 +1,7 @@
 @use "../variables/navigation" as *;
 @use "../mixins/mixins" as *;
+@use "../functions/functions" as *;
+@use "../variables/fonts" as *;
 
 html[data-scroll='0'] .nav {
   background-color: #ffffff76;
@@ -64,6 +66,7 @@ html:not([data-scroll='0']) .nav {
     color: $nav-labels-color;
     display: block;
     font-size: 13px;
+    font-family: #{var(headline, $fonts)};
     line-height: 1.1;
     padding: 10px;
     text-decoration: none;

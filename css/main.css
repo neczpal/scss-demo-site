@@ -2,6 +2,8 @@
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  color: black;
 }
 
 .container {
@@ -153,7 +155,7 @@
 }
 
 .nav {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   display: flex;
@@ -263,7 +265,7 @@
 .new-age {
   background: url("../img/bg-pattern.png") repeat, linear-gradient(to right, #dc2430, #7c4396);
   padding-bottom: 72px;
-  padding-top: 72px;
+  padding-top: 108px;
 }
 .new-age__text {
   font-size: 33px;
@@ -406,6 +408,55 @@
 .stop-wait__button {
   padding-left: 30%;
   padding-top: 5%;
+}
+
+.weheart {
+  background-color: #fdcc52;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+.weheart__headline {
+  font-size: 33px;
+  font-weight: 100;
+  line-height: 1.5;
+  text-align: center;
+}
+.weheart__kicker {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.weheart__badges {
+  display: flex;
+  justify-content: center;
+}
+.weheart__badge {
+  font-size: 64px;
+  margin: 5px;
+  color: #767676;
+}
+
+.footer {
+  background-color: #101010;
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+.footer__headline {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.15;
+  text-align: center;
+  color: #767676;
+}
+.footer__items {
+  display: flex;
+  justify-content: center;
+}
+.footer__item {
+  font-size: 16px;
+  margin: 5px;
+  color: #767676;
 }
 
 /*# sourceMappingURL=main.css.map */

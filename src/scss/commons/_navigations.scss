@@ -1,6 +1,14 @@
 @use "../variables/navigation" as *;
 @use "../mixins/mixins" as *;
 
+html[data-scroll='0'] .nav {
+  background-color: #ffffff76;
+}
+
+html:not([data-scroll='0']) .nav {
+  background-color: white;
+}
+
 .nav {
   position: fixed;
   top: 0;

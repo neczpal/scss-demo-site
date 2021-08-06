@@ -160,7 +160,7 @@ html {
 
 .btn {
   background-color: transparent;
-  border: 1.5px solid #efefef;
+  border: 1.5px solid #f6f6f6;
   border-radius: 2.25rem;
   color: white;
   font-family: Lato, Helvetica, Arial, sans-serif;
@@ -177,11 +177,11 @@ html {
 }
 
 html[data-scroll="0"] .nav {
-  background-color: rgba(239, 239, 239, 0.2);
+  background-color: rgba(246, 246, 246, 0.2);
 }
 
 html:not([data-scroll="0"]) .nav {
-  background-color: #efefef;
+  background-color: #f6f6f6;
 }
 html:not([data-scroll="0"]) .nav__site-name:hover {
   color: #101010;
@@ -204,7 +204,7 @@ html:not([data-scroll="0"]) .nav__site-name:hover {
   color: #fdcc52;
 }
 .nav__site-name:hover {
-  color: #efefef;
+  color: #f6f6f6;
   cursor: pointer;
 }
 .nav__container {
@@ -306,7 +306,7 @@ html:not([data-scroll="0"]) .nav__site-name:hover {
   font-weight: 100;
   font-family: Catamaran, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  color: #efefef;
+  color: #f6f6f6;
   padding: 20% 20% 10%;
 }
 .new-age__phone {
@@ -352,7 +352,7 @@ html:not([data-scroll="0"]) .nav__site-name:hover {
 }
 
 .unlimited {
-  background-color: #efefef;
+  background-color: #f6f6f6;
   padding-bottom: 72px;
   padding-top: 72px;
 }
@@ -445,7 +445,7 @@ html:not([data-scroll="0"]) .nav__site-name:hover {
   font-weight: 100;
   font-family: Catamaran, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  color: #efefef;
+  color: #f6f6f6;
   padding-left: 30%;
 }
 .stop-wait__button {

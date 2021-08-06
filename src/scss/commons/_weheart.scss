@@ -13,6 +13,11 @@
     text-align: center;
   }
 
+  &__heart {
+    color: get-color('red');
+    font-size: 64px;
+  }
+
   &__badges {
     display: flex;
     justify-content: center;

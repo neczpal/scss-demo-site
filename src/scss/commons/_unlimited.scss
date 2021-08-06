@@ -82,6 +82,8 @@
     &-title {
       align-self: center;
       text-align: center;
+      font-size: 24px;
+      color: get-color('darkgrey');
       margin: 6px;
     }
 
@@ -89,6 +91,7 @@
       align-self: center;
       text-align: center;
       margin: 6px;
+      color: get-color('grey');
     }
   }
 }

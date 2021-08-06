@@ -423,12 +423,15 @@ html:not([data-scroll="0"]) .nav__site-name:hover {
 .unlimited__tile-title {
   align-self: center;
   text-align: center;
+  font-size: 24px;
+  color: #333333;
   margin: 6px;
 }
 .unlimited__tile-text {
   align-self: center;
   text-align: center;
   margin: 6px;
+  color: #767676;
 }
 
 .stop-wait {
@@ -461,6 +464,10 @@ html:not([data-scroll="0"]) .nav__site-name:hover {
   font-family: Catamaran, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   text-align: center;
+}
+.weheart__heart {
+  color: #dc2430;
+  font-size: 64px;
 }
 .weheart__badges {
   display: flex;

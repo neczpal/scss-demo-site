@@ -38,122 +38,122 @@ html {
   }
 }
 
-.col--1 {
+.col-1 {
   width: 8.3333333333%;
 }
 
-.col--2 {
+.col-2 {
   width: 16.6666666667%;
 }
 
-.col--3 {
+.col-3 {
   width: 25%;
 }
 
-.col--4 {
+.col-4 {
   width: 33.3333333333%;
 }
 
-.col--5 {
+.col-5 {
   width: 41.6666666667%;
 }
 
-.col--6 {
+.col-6 {
   width: 50%;
 }
 
-.col--7 {
+.col-7 {
   width: 58.3333333333%;
 }
 
-.col--8 {
+.col-8 {
   width: 66.6666666667%;
 }
 
-.col--9 {
+.col-9 {
   width: 75%;
 }
 
-.col--10 {
+.col-10 {
   width: 83.3333333333%;
 }
 
-.col--11 {
+.col-11 {
   width: 91.6666666667%;
 }
 
-.col--12 {
+.col-12 {
   width: 100%;
 }
 
 @media only screen and (min-width: 992px) {
-  .col--l-1 {
+  .col-l-1 {
     width: 8.3333333333%;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .col--l-2 {
+  .col-l-2 {
     width: 16.6666666667%;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .col--l-3 {
+  .col-l-3 {
     width: 25%;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .col--l-4 {
+  .col-l-4 {
     width: 33.3333333333%;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .col--l-5 {
+  .col-l-5 {
     width: 41.6666666667%;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .col--l-6 {
+  .col-l-6 {
     width: 50%;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .col--l-7 {
+  .col-l-7 {
     width: 58.3333333333%;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .col--l-8 {
+  .col-l-8 {
     width: 66.6666666667%;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .col--l-9 {
+  .col-l-9 {
     width: 75%;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .col--l-10 {
+  .col-l-10 {
     width: 83.3333333333%;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .col--l-11 {
+  .col-l-11 {
     width: 91.6666666667%;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .col--l-12 {
+  .col-l-12 {
     width: 100%;
   }
 }

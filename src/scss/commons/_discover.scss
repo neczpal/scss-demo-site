@@ -1,5 +1,4 @@
 @use "../functions/functions" as *;
-@use "../variables/fonts" as *;
 
 .discover {
   background-color: #fdcc52;
@@ -9,7 +8,7 @@
   &__headline {
     font-size: 33px;
     font-weight: 100;
-    font-family: #{var(headline, $fonts)};
+    font-family: get-font(headline);
     line-height: 1.5;
     text-align: center;
   }
@@ -18,7 +17,7 @@
     text-align: center;
     font-size: 17px;
     font-weight: 200;
-    font-family: #{var(headline, $fonts)};
+    font-family: get-font(headline);
     line-height: 1.5;
   }
 

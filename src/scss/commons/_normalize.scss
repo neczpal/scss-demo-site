@@ -1,12 +1,11 @@
 @use "../functions/functions" as *;
-@use "../variables/fonts" as *;
 
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   color: black;
-  font-family: #{var(default, $fonts)};
+  font-family: get-font(default);
 }
 
 html {

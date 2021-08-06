@@ -1,5 +1,4 @@
 @use "../functions/functions" as *;
-@use "../variables/fonts" as *;
 
 .new-age {
   background: url("../img/bg-pattern.png") repeat, linear-gradient(to right, #dc2430, #7c4396);
@@ -9,7 +8,7 @@
   &__text {
     font-size: 33px;
     font-weight: 100;
-    font-family: #{var(headline, $fonts)};
+    font-family: get-font(headline);
     line-height: 1.5;
     color: white;
     padding: 20% 20% 10%;

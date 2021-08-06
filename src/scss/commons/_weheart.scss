@@ -1,6 +1,5 @@
 @use "../variables/navigation" as *;
 @use "../functions/functions" as *;
-@use "../variables/fonts" as *;
 
 .weheart {
   background-color: #fdcc52;
@@ -10,7 +9,7 @@
   &__headline {
     font-size: 33px;
     font-weight: 100;
-    font-family: #{var(headline, $fonts)};
+    font-family: get-font(headline);
     line-height: 1.5;
     text-align: center;
   }

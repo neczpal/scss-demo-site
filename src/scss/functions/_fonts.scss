@@ -1,0 +1,6 @@
+@use "var" as *;
+@use "../variables/fonts" as *;
+
+@function get-font($name) {
+  @return #{var($name, $fonts)};
+}

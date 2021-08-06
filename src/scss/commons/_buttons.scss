@@ -1,13 +1,11 @@
 @use "../functions/functions" as *;
-@use "../variables/fonts" as *;
-
 
 .btn {
   background-color: #ffffff00;
   border: white 1.5px solid;
   border-radius: 2.25rem;
   color: white;
-  font-family: #{var(links, $fonts)};
+  font-family: get-font(links);
   padding: 0.5rem 1rem;
   user-select: none;
   transition: text-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;

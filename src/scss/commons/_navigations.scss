@@ -82,6 +82,10 @@ html:not([data-scroll='0']) {
     &:hover {
       color: get-color('grey');
     }
+
+    &:active {
+      color: get-color('yellow');
+    }
   }
 
   &__hamburger {

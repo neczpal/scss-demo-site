@@ -1,0 +1,6 @@
+@use "var" as *;
+@use "../variables/colors" as *;
+
+@function get-color($name) {
+  @return var($name, $colors);
+}

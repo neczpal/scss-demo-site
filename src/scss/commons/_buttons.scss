@@ -1,8 +1,8 @@
 @use "../functions/functions" as *;
 
 .btn {
-  background-color: #ffffff00;
-  border: white 1.5px solid;
+  background-color: transparent;
+  border: 1.5px solid get-color('white');
   border-radius: 2.25rem;
   color: white;
   font-family: get-font(links);
@@ -14,7 +14,7 @@
 
   &:hover {
     cursor: pointer;
-    background-color: #fdcc52;
-    border-color: #fdcc52;
+    background-color: get-color('yellow');
+    border-color: get-color('yellow');
   }
 }

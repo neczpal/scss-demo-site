@@ -1,7 +1,7 @@
-@use "../variables/navigation" as *;
+@use "../functions/functions" as *;
 
 .footer {
-  background-color: #101010;
+  background-color: get-color('black');
   padding-bottom: 6px;
   padding-top: 6px;
 
@@ -10,7 +10,7 @@
     font-weight: 100;
     line-height: 1.15;
     text-align: center;
-    color: #767676;
+    color: get-color('grey');
   }
 
   &__items {
@@ -21,10 +21,10 @@
   &__item {
     font-size: 16px;
     margin: 5px;
-    color: #767676;
+    color: get-color('grey');
 
     &:hover {
-      color: #fdcc52;
+      color: get-color('yellow');
     }
   }
 

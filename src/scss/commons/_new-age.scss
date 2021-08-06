@@ -1,7 +1,7 @@
 @use "../functions/functions" as *;
 
 .new-age {
-  background: url("../img/bg-pattern.png") repeat, linear-gradient(to right, #dc2430, #7c4396);
+  background: url("../img/bg-pattern.png") repeat, linear-gradient(to right, get-color('red'), get-color('purple'));
   padding-bottom: 72px;
   padding-top: 108px;
 
@@ -10,7 +10,7 @@
     font-weight: 100;
     font-family: get-font(headline);
     line-height: 1.5;
-    color: white;
+    color: get-color('white');
     padding: 20% 20% 10%;
   }
 

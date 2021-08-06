@@ -1,7 +1,7 @@
 @use "../functions/functions" as *;
 
 .discover {
-  background-color: #fdcc52;
+  background-color: get-color('yellow');
   padding-bottom: 108px;
   padding-top: 108px;
 

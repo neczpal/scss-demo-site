@@ -1,8 +1,7 @@
-@use "../variables/navigation" as *;
 @use "../functions/functions" as *;
 
 .weheart {
-  background-color: #fdcc52;
+  background-color: get-color('yellow');
   padding-bottom: 32px;
   padding-top: 32px;
 
@@ -22,7 +21,7 @@
   &__badge {
     font-size: 64px;
     margin: 5px;
-    color: black;
+    color: get-color('black');
     opacity: 0.5;
 
     &:hover {

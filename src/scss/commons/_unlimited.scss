@@ -1,10 +1,9 @@
-@use "../variables/navigation" as *;
 @use "../mixins/mixins" as *;
 @use "../functions/functions" as *;
 
 
 .unlimited {
-  background-color: white;
+  background-color: get-color('white');
   padding-bottom: 72px;
   padding-top: 72px;
 
@@ -22,7 +21,7 @@
 
   &__kicker {
     text-align: center;
-    color: #767676;
+    color: get-color('grey');
     font-size: 17px;
     font-weight: 200;
     font-family: get-font(headline);
@@ -35,7 +34,7 @@
     height: 1px;
     width: 64px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid get-color('grey');
     margin: 1em auto;
     padding: 0;
   }

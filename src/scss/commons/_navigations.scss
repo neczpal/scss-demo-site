@@ -1,13 +1,21 @@
-@use "../variables/navigation" as *;
 @use "../mixins/mixins" as *;
 @use "../functions/functions" as *;
 
-html[data-scroll='0'] .nav {
-  background-color: #ffffff76;
+html[data-scroll='0'] {
+  .nav {
+    background-color: rgba(get-color('white'), .2);
+  }
 }
 
-html:not([data-scroll='0']) .nav {
-  background-color: white;
+html:not([data-scroll='0']) {
+  .nav {
+    background-color: get-color('white');
+    &__site-name {
+      &:hover {
+        color: get-color('black');
+      }
+    }
+  }
 }
 
 .nav {
@@ -24,10 +32,10 @@ html:not([data-scroll='0']) .nav {
     line-height: 1.25;
     font-weight: 200;
     align-self: center;
-    color: $nav-site-name-color;
+    color: get-color('yellow');
 
     &:hover {
-      color: $nav-site-name-hover-color;
+      color: get-color('white');
       cursor: pointer;
     }
   }
@@ -62,7 +70,7 @@ html:not([data-scroll='0']) .nav {
 
   &__link {
     text-align: center;
-    color: $nav-labels-color;
+    color: get-color('black');
     display: block;
     font-size: 13px;
     font-family: get-font(headline);
@@ -72,7 +80,7 @@ html:not([data-scroll='0']) .nav {
     text-transform: uppercase;
 
     &:hover {
-      color: $nav-labels-hover-color;
+      color: get-color('grey');
     }
   }
 
@@ -96,7 +104,7 @@ html:not([data-scroll='0']) .nav {
 
     &-label {
       display: flex;
-      color: $nav-labels-color;
+      color: get-color('black');
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
@@ -121,7 +129,7 @@ html:not([data-scroll='0']) .nav {
     }
 
     &-line {
-      background: $nav-labels-color;
+      background: get-color('black');
       display: block;
       height: 2px;
       width: 1.5rem;

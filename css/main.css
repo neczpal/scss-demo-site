@@ -248,6 +248,9 @@ html:not([data-scroll="0"]) .nav__site-name:hover {
 .nav__link:hover {
   color: #767676;
 }
+.nav__link:active {
+  color: #fdcc52;
+}
 .nav__hamburger-checkbox {
   display: none;
 }
